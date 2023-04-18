@@ -1,6 +1,6 @@
 export async function GET(request: Request) {
   // hit azure endpoint w/ this response
-  const response = await fetch("...", {
+  const response = await fetch("http://localhost:7071/api/imaginize-fetcher", {
     cache: "no-store",
   });
 
